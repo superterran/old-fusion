@@ -1,0 +1,14 @@
+<routers>
+	<blog>
+		<index  plugin = "blog" run = "render" />
+		<search>
+			<index plugin = "blog" include = "blog/front/search.phtml" />
+		</search>
+		<cat>
+			<index plugin = "blog" include = "blog/front/category.phtml" />
+			<art>
+				<index plugin = "blog" include = "blog/front/article.phtml" />
+			</art>
+		</cat>
+	</blog>
+</routers>

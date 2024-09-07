@@ -1,0 +1,12 @@
+<config>
+	
+	<database>
+		<server>localhost</server>
+		<username>root</username>
+		<password />
+		<port>3306</port>
+		<database>fusion2</database>
+		<prefix>fsn_</prefix>
+	</database>	
+
+</config>

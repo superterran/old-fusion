@@ -1,0 +1,28 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title><?php echo $this->pageTitle(); ?></title>
+ 
+	<?php $this->output($this->hookHead); ?>
+
+	</head>
+	
+	<link rel = "stylesheet" href="<?php echo $this->config->themeUrl; ?>css/style.css" />
+	
+	<body>
+		
+		
+	<div id = "container">
+		
+		<div id = "content">
+		
+			<?php $this->output($this->hookContent); ?>
+
+		</div id = "content">
+
+	</div id = "container">
+
+	</body>
+	
+
+</html>

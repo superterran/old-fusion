@@ -1,0 +1,5 @@
+<plugins>
+	<test>
+		<index plugin = "test" include = "blog/front/search.phtml" />
+	</test>
+</plugins>
